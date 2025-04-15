@@ -7,7 +7,6 @@ const ros = new ROSLIB.Ros({
 let connection = () => {};
 
 ros.on("connection", () => {
-  console.log("Connected to websocket server.");
   connection(true);
 })
 ros.on("error", (err) => {
@@ -16,7 +15,6 @@ ros.on("error", (err) => {
 })
 
 ros.on("close", () => {
-  console.log("Connection closed.");
   connection(false);
 })
 
