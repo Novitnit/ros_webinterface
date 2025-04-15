@@ -1,0 +1,18 @@
+@import url('../colorset.css');
+
+.bar {
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15vw;
+    background-color: var(--color-one);
+}
+
+.bar > *{
+    margin: 10px;
+}
+
+.bar > p{
+    color: var(--color-four);
+}
