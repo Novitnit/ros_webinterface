@@ -59,3 +59,19 @@
 .windown_name > *{
     margin: 15px;
 }
+
+.windown_Cvlog{
+    background-color: var(--color-one);
+    margin: 2vw;
+    margin-left: -220px ;
+    width: 55vw;
+    height: 480px;
+    transform: scale(var(--window-sec));
+    transform-origin: top left;
+    z-index: 0;
+}
+
+.windown_Cvlog > p{
+    color: var(--color-four);
+    font-size: 30px;
+}

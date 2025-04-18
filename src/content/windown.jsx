@@ -29,10 +29,18 @@ export default function Windown() {
                 <div className={style.windown_name}><p>{camera[windowns[1]].name}</p></div>
                 <img src={camera[windowns[1]].src}/>
             </div>
+
+            
             <div className={style.windown_sec} style={{backgroundColor:'black'}}>
-            <div className={style.windown_name}><p>{camera[windowns[2]].name}</p></div>
-            <img src={camera[windowns[2]].src}/>
+                <div className={style.windown_name}><p>{camera[windowns[2]].name}</p></div>
+                <img src={camera[windowns[2]].src}/>
             </div>
+
+            <div className={style.windown_Cvlog}>
+                <p>QR_CODE : test</p>
+                <p></p>
+            </div>
+
         </div>
     )
 }
