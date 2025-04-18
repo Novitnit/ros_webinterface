@@ -1,0 +1,27 @@
+.head {
+    color: var(--color-four);
+    font-size: 50px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+}
+
+.text{
+    margin-left: 20px;
+    margin-top: 0;
+    color: var(--color-four);
+    font-size: 30px;
+    
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.logContainer {
+  display: flex;
+  gap: 20px;
+}
+  

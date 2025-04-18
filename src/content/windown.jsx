@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import style from '../css/content/windown.module.css'
+import CvLog from './access/cv_log';
 
 const camera =[
     {
@@ -37,8 +38,7 @@ export default function Windown() {
             </div>
 
             <div className={style.windown_Cvlog}>
-                <p>QR_CODE : test</p>
-                <p></p>
+                <CvLog/>
             </div>
 
         </div>
